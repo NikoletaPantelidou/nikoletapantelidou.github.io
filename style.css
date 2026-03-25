@@ -82,7 +82,12 @@ nav a:hover {
 .icons a:hover {
     color: #16a085;
 }
-
+.custom-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    filter: invert(40%) sepia(60%) saturate(500%) hue-rotate(160deg);
+}
 /* Dark mode adjustment */
 body.dark-mode .icons a {
     color: #4dd0e1;
