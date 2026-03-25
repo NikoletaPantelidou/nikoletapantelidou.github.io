@@ -63,6 +63,21 @@ nav a:hover {
     margin-bottom: 15px;
     line-height: 1.5;
 }
+.icons a {
+    margin-right: 12px;
+    font-size: 20px;
+    color: #1abc9c;
+    transition: color 0.3s;
+}
+
+.icons a:hover {
+    color: #16a085;
+}
+
+/* Dark mode adjustment */
+body.dark-mode .icons a {
+    color: #4dd0e1;
+}
 /* Sections */
 section {
     max-width: 800px;
