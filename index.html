@@ -8,52 +8,72 @@
 </head>
 <body>
 
-    <!-- Header / Navigation -->
+    <!-- Header -->
     <header>
         <nav>
             <ul>
-                <li><a href="#about">About Me</a></li>
                 <li><a href="#publications">Publications</a></li>
-                <li><a href="#talks">Talks</a></li>
                 <li><a href="#cv">CV</a></li>
+                <li><button id="theme-toggle">🌙</button></li>
             </ul>
         </nav>
     </header>
 
-    <!-- About Me Section -->
-    <section id="about">
-        <h1>About Me</h1>
-        <p>
-            Hey! I am a PhD student at the Universitat Autònoma de Barcelona and active member at the Centre de Lingüística Teòrica. My research lies at the intersection of Natural Language Processing, Computational Linguistics, and cognitive approaches to language, with a particular focus on exploring and explaining the linguistic abilities of Large Language Models (LLMs).
-            Prior to starting my PhD, I received my Master’s Degree in Cognitive Science and Language from the University of Barcelona. Previously, I completed my Bachelor’s Degree in the field of English Language and Literature at the University of Cyprus. During that period, I was awarded the International Student Award by the Republic of Cyprus for obtaining the highest entrance grade among international students in the School of Humanities. 
-            I am currently supported by an FPI fellowship, a competitive predoctoral contract awarded for doctoral research by the Spanish Ministry of Science and Innovation.
+    <!-- About Me (Homepage) -->
+    <section id="about" class="about-container">
+        <img src="profile.jpg" alt="Profile Photo" class="profile-pic">
+
+        <div>
+            <h1>Nikoleta Pantelidou</h1>
+            
+        <p class="info">
+            <strong>Position:</strong> PhD Student / Researcher<br>
+            <strong>University:</strong> Universitat Autònoma de Barcelona<br>
+            <strong>Email:</strong> 
+            <a href="mailto:your.email@university.edu">nikoleta.pantelidou@autonoma.cat</a><br>
+            <strong>Links:</strong>
+             <a href="https://orcid.org/0009-0008-9565-5232" target="_blank">ORCID</a> |
+            <a href="https://github.com/NikoletaPantelidou" target="_blank">GitHub</a> |
+            <a href="www.linkedin.com/in/nikoleta-pantelidou-692013250" target="_blank">LinkedIn</a>
         </p>
+            <p>
+               Hey! I am a PhD student at the Universitat Autònoma de Barcelona and active member at the Centre de Lingüística Teòrica. My research lies at the intersection of Natural Language Processing, Computational Linguistics, and cognitive approaches to language, with a particular focus on exploring and explaining the linguistic abilities of Large Language Models (LLMs).
+               Prior to starting my PhD, I received my Master’s Degree in Cognitive Science and Language from the University of Barcelona. Previously, I completed my Bachelor’s Degree in the field of English Language and Literature at the University of Cyprus. During that period, I was awarded the International Student Award by the Republic of Cyprus for obtaining the highest entrance grade among international students in the School of Humanities. I am currently supported by an FPI fellowship, a competitive predoctoral contract awarded for doctoral research by the Spanish Ministry of Science and Innovation.
+            </p>
+        </div>
     </section>
 
-    <!-- Publications Section -->
+    <!-- Publications -->
     <section id="publications">
         <h2>Publications</h2>
         <ul>
             <li>
-                Pantelidou N, Leivada E, Montero R, Morosi P. 2026. 
-                <a href="https://doi.org/10.1371/journal.pone.0343164">Community size rather than grammatical complexity better predicts Large Language Model accuracy in a novel Wug Test</a>. 
+                Pantelidou N, Leivada E, Montero R, Morosi P. 2026.
+                <a href="https://doi.org/10.1371/journal.pone.0343164">
+                    Community size rather than grammatical complexity better predicts Large Language Model accuracy in a novel Wug Test
+                </a>.
                 PLoS One 21(3): e0343164.
-            </li>
-            <li>
-                Another Author, X. 2025. <a href="#">Title of Another Paper</a>. Journal, volume(issue): pages.
             </li>
         </ul>
     </section>
 
- 
 
-    <!-- CV Section -->
+    <!-- CV -->
     <section id="cv">
         <h2>CV</h2>
         <p>
-            Download my CV: <a href="#" target="_blank">PDF Version</a>
+            <a href="cv.pdf" target="_blank">Download my CV</a>
         </p>
     </section>
+
+    <script>
+        const toggle = document.getElementById("theme-toggle");
+        toggle.addEventListener("click", () => {
+            document.body.classList.toggle("dark-mode");
+            toggle.textContent =
+                document.body.classList.contains("dark-mode") ? "☀️" : "🌙";
+        });
+    </script>
 
 </body>
 </html>
