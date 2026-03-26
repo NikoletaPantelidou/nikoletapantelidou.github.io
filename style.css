@@ -51,12 +51,11 @@ nav a:hover {
 
 /* About section */
 .about-container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
-    max-width:fit-content;
-}
 
 .profile-pic {
     object-fit: cover;
@@ -69,7 +68,7 @@ nav a:hover {
     font-size: 18px;
 }
 .icons a {
-    margin-right: 12px;
+    display:contents;
     font-size: 20px;
     color: #1abc9c;
     transition: color 0.3s;
@@ -90,8 +89,8 @@ body.dark-mode .icons a {
 }
 /* Sections */
 section {
-    max-width: 800px;
-    margin: 60px auto;
+    width: 70%;
+    margin: 20px auto;
     padding: 0 20px;
 }
 
