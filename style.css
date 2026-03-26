@@ -63,6 +63,7 @@ nav a:hover {
     gap: 10px;
     width: 85%;
     margin: 0 auto;
+}
 
 .profile-pic {
     object-fit: cover;
