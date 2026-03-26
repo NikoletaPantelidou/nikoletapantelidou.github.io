@@ -49,7 +49,7 @@ nav a:hover {
     color: #ff8a98;
 }
 
-#name-title{
+.name-title{
     text-align: center;
     color: #ff8a98; 
 }
@@ -66,7 +66,7 @@ nav a:hover {
 
 .profile-pic {
     object-fit: cover;
-    object-radius: 50%
+    border-radius: 50%
 }
 .info {
     margin-bottom: 15px;
@@ -136,6 +136,9 @@ body.dark-mode header {
     background-color: #1f1f1f;
 }
 
+body.dark-mode h1{
+    color:#ffffff;
+}
 body.dark-mode a {
     color: #4dd0e1;
 }
