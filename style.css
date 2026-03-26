@@ -128,7 +128,7 @@ h2 {
 
 /* Links */
 a {
-    color: #1abc9c;
+    color: #FF8A98;
 }
 
 a:hover {
@@ -137,7 +137,7 @@ a:hover {
 
 /* Dark Mode */
  body.dark-mode nav {
-    background-color: grey;
+    background-color: #545454;
 }
 
 body.dark-mode {
