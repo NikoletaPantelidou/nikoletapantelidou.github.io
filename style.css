@@ -59,9 +59,8 @@ nav a:hover {
 }
 
 .profile-pic {
-    width: 300px;
-    height: 300px;
     object-fit: cover;
+    object-radius: 50%
 }
 .info {
     margin-bottom: 15px;
