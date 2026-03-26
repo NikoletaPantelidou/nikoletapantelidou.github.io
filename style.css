@@ -105,6 +105,12 @@ section {
     padding: 0 20px;
 }
 
+.my-publications{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}}
 h1 {
     margin-bottom: 10px;
     font-family:monospace;
