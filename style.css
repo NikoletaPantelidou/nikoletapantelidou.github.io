@@ -116,7 +116,7 @@ a:hover {
 }
 
 /* Dark Mode */
- nav.dark-mode {
+ body.dark-mode nav {
     background-color: grey;
 }
 
