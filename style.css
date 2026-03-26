@@ -46,9 +46,13 @@ nav a, nav button {
 }
 
 nav a:hover {
-    color: #1abc9c;
+    color: #ff8a98;
 }
 
+.name-title{
+    text-align: center;
+    color: #ff8a98; 
+}
 /* About section */
 .about-container {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
