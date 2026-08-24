@@ -32,7 +32,7 @@ nav ul {
 }
 
 nav li {
-    margin: 15px;
+    margin: 0 15px;
 }
 
 nav a, nav button {
@@ -124,6 +124,11 @@ section {
 .pub-items{
     padding:10px;
 }
+
+.pub-items li {
+    margin-bottom: 10px;
+}
+
 h1 {
     margin-bottom: 10px;
     font-family:monospace;
