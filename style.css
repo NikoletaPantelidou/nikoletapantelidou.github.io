@@ -145,9 +145,7 @@ h2 {
 }
 
 /* Links */
-a {
-    color: #936772 !important; 
-}
+
 
 a:hover {
     text-decoration: underline;
