@@ -11,7 +11,7 @@ body {
 
 /* Header */
 header {
-    background-color: #2c3e50;
+    background-color: #ffffff;
     padding: 12px 20px;
     position: sticky;
     top: 0;
@@ -19,7 +19,7 @@ header {
 
 /* NAVBAR FIX */
 nav {
-    background-color:##ffffff;
+    background-color:#ffffff;
     padding: 15px 0;
 }
 
