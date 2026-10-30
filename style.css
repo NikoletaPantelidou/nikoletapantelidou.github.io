@@ -33,6 +33,7 @@ nav ul {
 
 nav li {
     margin: 0 15px;
+    color: #ffffffff !important;
 }
 
 nav a, nav button {
@@ -127,7 +128,7 @@ section {
 
  li {
     margin-bottom: 15px;
-     color: #ffffffff !important;
+    color: #936772 !important;
 }
 
 h1 {
