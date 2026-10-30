@@ -36,7 +36,7 @@ nav li {
 }
 
 nav a, nav button {
-    color: #ffffffff;
+    color: #ffffffff !important; 
     font-family: monospace;
     font-weight: bold;
     font-size: 20px;
