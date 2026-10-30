@@ -19,7 +19,7 @@ header {
 
 /* NAVBAR FIX */
 nav {
-    background-color:#936772;
+    background-color:#936772 !important; 
     padding: 15px 0;
 }
 
