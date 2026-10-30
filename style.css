@@ -3,7 +3,7 @@ body {
     font-family: monospace;
     font-size: 15px;
     margin: 0;
-    background-color: #f9f9f9;
+    background-color:#a3878b;
     color: #111;
     transition: background 0.3s, color 0.3s;
     
@@ -19,7 +19,7 @@ header {
 
 /* NAVBAR FIX */
 nav {
-    background-color: #ff8a98;
+    background-color:#a3878b;
     padding: 15px 0;
 }
 
