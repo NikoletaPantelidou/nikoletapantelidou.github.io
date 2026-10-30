@@ -19,25 +19,24 @@ header {
 
 /* NAVBAR FIX */
 nav {
-    background-color:#936772 !important; 
+    background-color:#d7c7cc !important; 
     padding: 15px 0;
+    height: 91px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    margin: 0;
-    padding: 0;
+    margin: 26px;
+    
 }
 
 nav li {
     margin: 0 15px;
-    color: #ffffffff !important;
 }
 
 nav a, nav button {
-    color: #ffffffff !important; 
     font-family: monospace;
     font-weight: bold;
     font-size: 20px;
@@ -128,7 +127,7 @@ section {
 
  li {
     margin-bottom: 15px;
-    color: #936772 !important;
+    
 }
 
 h1 {
