@@ -36,7 +36,7 @@ nav li {
 }
 
 nav a, nav button {
-    color: #936772;
+    color: #ffffffff;
     font-family: monospace;
     font-weight: bold;
     font-size: 20px;
@@ -46,7 +46,7 @@ nav a, nav button {
 }
 
 nav a:hover {
-    color: #ff8a98;
+    color: #ffffffff;
 }
 
 .name-title{
