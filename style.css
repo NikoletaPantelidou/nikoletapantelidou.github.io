@@ -144,7 +144,7 @@ h2 {
 
 /* Links */
 a {
-    color: #FF8A98;
+    color: #ffffffff !important; ;
 }
 
 a:hover {
