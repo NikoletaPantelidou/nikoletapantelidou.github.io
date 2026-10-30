@@ -46,7 +46,7 @@ nav a, nav button {
 }
 
 nav a:hover {
-    color: #ffffffff;
+    color: #ffffffff !important;
 }
 
 .name-title{
